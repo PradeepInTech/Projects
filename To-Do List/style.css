@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    list-style: decimal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 228, 183);
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: orange;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.input_area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.input_area input {
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.input_area button {
+    margin-left: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.input_area button:active {
+    box-shadow: 0 2px inset rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.display_area {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+
+ul li {
+    font-size: 17px;
+    user-select: none;
+    display: flex;
+}
+
+ul .checked {
+    color: gray;
+    text-decoration: line-through;
+}
+
+ul span {
+    margin-left: 20px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+}
