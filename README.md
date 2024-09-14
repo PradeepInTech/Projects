@@ -1,0 +1,1 @@
+Welcome to my repository of projects! Here you will find a collection of my various coding projects, experiments, and contributions. Each project is organized in its own directory with relevant documentation and source code.
